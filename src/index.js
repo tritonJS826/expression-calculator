@@ -2,7 +2,6 @@ function eval() {
   // Do not use eval!!!
   return;
 }
-expressionCalculator(" 20 - 57 * 12 - (  58 + 84 * 32 / 27  ) ")
 
 function expressionCalculator(expr) {
   let exprArr = expr.split(' ').join('').split(''); //избавимся от пробелов
